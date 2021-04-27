@@ -28,15 +28,14 @@ header{
     display:flex;
     align-self: auto;
     align-content: space-between;
-    
-    
 }
 header ul{
     display:inline-flex;
     align-items:center;
     padding: 20px;
+    margin: 20px;
     list-style: none;
-    
+
 }
 header ul li a{
     padding: 20px;
@@ -51,15 +50,16 @@ header ul li a{
 .icones{
     display:flex;
     align-items:center;
+    margin: 20px;
 }   
 .icones i{
     padding: 20px;
+    
 }
- main{
-
+main{
     /*background-color: red;*/
     display: flex;
- }
+}
 .lista{
     margin:120px 75px ;
     width: 100px;
@@ -67,8 +67,6 @@ header ul li a{
     font-size: 20px;
     font-family: Montserrat;
     text-align: center;
-   
-  
 
 }
 
@@ -77,14 +75,11 @@ header ul li a{
     text-align: center;
 }
 .lista li {
- padding: 10px;
- 
-
+padding: 10px;
 }
 .lista a {
     text-decoration: none;
-    
-   }
+}
 
 .t{
     color: #e67e34;
@@ -128,28 +123,68 @@ header ul li a{
   }
   .next li a {
     text-decoration: none;
-    
-   
-   
- 
    
   }
 
   .circulo {
-	width: 12px;
-	height: 12px;
+	width: 10px;
+	height: 10px;
 	border-radius: 50%;
 	float: left;
-    border:3px solid #ebe6e6;
-    padding: 8px ;
-    margin: 3px;
-  
+    border:1px solid #020202;
+    padding: 7px ;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 10pt;
+}
+.circulo a{
+    
+    position: relative;
+
+}
+.m{
+    padding: -5px;
 }
 .circulo a:active {
    
    color: red;
 }
+form{
+    width: 250px;
+    margin-left: -100px;
+    padding: 20px;
+    
+}
+input[type="number"]{
+    width: 150px;
+    height: 40px;
+    font-size: 12pt;
+    font-style: bold;
+    font-size: 14pt;
+    text-align: center;
+    border: none;
+    background-color: #cfcfcf ;
+}
+input[type="number"]::before{
+    
+   content: "+";
+   color: black;
+   position: absolute;
+}
 
+
+input[type="button"]{
+    margin-top: 20px;
+    width: 150px;
+    height: 50px;
+    color: #fff;
+    border: none;
+    background-color: #e67e34 ;
+    font-size: 12pt;
+    cursor: pointer;
+   
+}
 
 
 
