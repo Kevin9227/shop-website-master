@@ -166,11 +166,8 @@ input[type="number"]{
     border: none;
     background-color: #cfcfcf ;
 }
-input[type="number"]::before{
-    
-   content: "+";
-   color: black;
-   position: absolute;
+input[type="number"]:focus{
+    border: none;
 }
 
 
