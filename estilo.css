@@ -182,6 +182,25 @@ input[type="button"]{
     cursor: pointer;
    
 }
+.cir{
+    width: 150px;
+    height: 100px;
+    display: flex;
+  
+}
+.cir p{
+    width: 9px;
+    height: 9px;
+    padding: 10px;
+    font-size: 10px;
+    border: solid 1px ;
+    border-radius: 50%;
+    text-align: center;
+    margin: 5px;
+}
+.cir .m{
+    border-color: #e67e34;
+}
 
 
 
