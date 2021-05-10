@@ -153,6 +153,7 @@ padding: 10px;
 form{
     width: 250px;
     margin-left: -100px;
+    margin-top: -40px;
     padding: 20px;
     
 }
@@ -186,6 +187,9 @@ input[type="button"]{
     width: 150px;
     height: 100px;
     display: flex;
+  align-items: center;
+  justify-content: start;
+ margin-left: -80px;
   
 }
 .cir p{
@@ -200,6 +204,18 @@ input[type="button"]{
 }
 .cir .m{
     border-color: #e67e34;
+}
+.p{
+   background-color: rgb(196, 196, 196);
+   height: 40px;
+   width: 80px;
+   z-index: 1;
+}
+.p p {
+    z-index: 0;
+    margin-left: -20px ;
+    padding: 10px;
+    font-size: 10pt;
 }
 
 
