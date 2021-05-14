@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;700&display=swap');
 *{
     margin: 0;
     padding: 0%;
@@ -67,6 +67,7 @@ main{
     font-size: 20px;
     font-family: Montserrat;
     text-align: center;
+    
 
 }
 
@@ -76,41 +77,29 @@ main{
 }
 .lista li {
 padding: 10px;
+color: #000;
 }
 .lista a {
+    
     text-decoration: none;
+   
 }
-
 .t{
     color: #e67e34;
   }
-
   .titulo{
-
-   
     height: fit-content;
     width: fit-content;
     margin: 130px 250px;
     font-family: Montserrat;
-
-
-
   }
   .titulo h1{
-
     color: #e67e34;
-
-
-
-  }
-  
-  .next{
-
-    
+  } 
+.next{
     height: auto;
     width: auto;
-    margin: 130px 330px;
-
+    margin: 130px 100px;
 
   }
   .next li {
@@ -118,14 +107,12 @@ padding: 10px;
     list-style-type: none;
     display: inline;
     text-align: center;
-    
-   
+
   }
   .next li a {
     text-decoration: none;
-   
-  }
 
+  }
   .circulo {
 	width: 10px;
 	height: 10px;
@@ -170,8 +157,6 @@ input[type="number"]{
 input[type="number"]:focus{
     border: none;
 }
-
-
 input[type="button"]{
     margin-top: 20px;
     width: 150px;
@@ -221,6 +206,29 @@ input[type="button"]{
 .p p i{
     margin-left: 20px;
     position: absolute;
+}
+.titulo{
+  
+}
+.titulo h1{
+    font-size: 20pt;
+    line-height: 1.0;
+    letter-spacing: 10px; 
+    word-spacing: 10px;
+    padding-bottom: 20px;
+    
+}
+.titulo h3{
+    padding: 20px;
+
+}
+.redes {
+    margin-top: -150px;
+    margin-left: 50px;
+    width: 350px;
+}
+.redes i {
+    padding: 20px;
 }
 
 
