@@ -233,23 +233,37 @@ input[type="button"] {
     position: absolute;
 }
 
-.titulo {}
+.titulo {
+    
+}
 
-.titulo h1 {
-    font-size: 20pt;
+.txt {
+    padding: 0px 5  0px 0 70px;
+    width: 450px;
+    margin-left: -100px;
+   
+
+}
+.txt h1 {
+    font-size: 30pt;
     line-height: 1.0;
     letter-spacing: 10px;
     word-spacing: 10px;
     padding-bottom: 20px;
-
+    margin-left: -50px;
 }
-
-.titulo h3 {
-    padding: 20px;
-    margin-left: -70px;
+.txt h3 {
+    padding: 10px;
+    margin-left: -50px;
 }
-.titulo p{
-    margin-left: -70px;
+.txt p{
+    margin-left: -50px;
+}
+.le{
+    background-color: rgb(196, 196, 196);
+    height: 30px;
+    width: 50px;
+    z-index: 1;
 }
 
 .redes {
