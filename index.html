@@ -55,5 +55,21 @@
         <i class="fab fa-twitter"></i>
         <i class="fab fa-facebook-f"></i>
     </div>
+    <div class="col-sm-4 col-md-4 col-lg-12">
+        <div class="BNA-exchange-mod">
+            <div class="BNA-header-mod">
+                <h3 class="BNA-title-mod">TAXA DE CÂMBIO DE MERCADO</h3>    
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapsecambios" aria-expanded="false" aria-controls="collapsetaxas" class="pull-right BNA-btncollapse">
+                    <span class="fa fa-chevron-circle-down"></span>
+                </a>
+                <a href="#" class="BNA-btnrss btn btn-link pull-right" role="button">
+                    RSS <span class="fa fa-rss"></span>
+                </a>
+            </div>
+            <div class="collapse" id="collapsecambios"></div>
+            <script type="text/javascript">
+                jQuery('#collapsecambios').load('/Servicos/cambios_table.aspx?idl=1');
+            </script>
+             <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> 
 </body>
 </html>
