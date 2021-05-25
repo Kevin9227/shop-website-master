@@ -154,12 +154,18 @@ main {
     color: red;
 }
 
-form {
+.for {
     width: 250px;
     margin-left: -100px;
     margin-top: -40px;
     padding: 20px;
 
+}
+input[type="button"]::before{
+    content: "Read this -";
+  background-color: yellow;
+  color: red;
+  font-weight: bold;
 }
 
 input[type="number"] {
